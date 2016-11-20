@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Search">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_search_kittens"
+                    android:icon="@drawable/ic_menu_search"
+                    android:title="Kittens" />
+                <item
+                    android:id="@+id/nav_search_puppies"
+                    android:icon="@drawable/ic_menu_search"
+                    android:title="Puppies" />
+                <item
+                    android:id="@+id/nav_search_robots"
+                    android:icon="@drawable/ic_menu_search"
+                    android:title="Robots" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
